@@ -12,7 +12,12 @@
 
 <body>
 <script>
-
+function wifi(){
+if(window.navigator.onLine==true){
+location.replace('https://scratch-cmd.github.io/clientdisplay');
+}else{
+alert('请保持网络连接再登录！');
+}}
     function yanz() {
 if(document.getElementById("usm").value=="肚"){
 if(document.getElementById("pwd").value=="hellofn!@#"){
